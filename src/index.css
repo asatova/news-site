@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Tahoma;
+}
+.container{
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  position: relative;
+  }
+ul, li,a {
+  text-decoration: none;
+  list-style-type: none;
+}

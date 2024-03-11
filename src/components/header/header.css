@@ -1,0 +1,12 @@
+.header{
+    align-items: center;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.second-nav{
+    display: flex;
+    gap: 25px;
+    /*align-items: center;*/
+    /*height: 20vh;*/
+}
