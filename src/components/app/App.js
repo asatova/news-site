@@ -9,10 +9,10 @@ function App() {
             <NewsContent
              heading="Markaziy Osiyoni Kremniy vodiysi bilan bog‘lamoqchimiz” - AQShda ayti hab ochgan Asror Arabjonov"
              img = {LeftImg}/>
+          
         </Fragment>
     );
 }
-
 function NewsContent(props) {
   return (
       <div className='container'>
