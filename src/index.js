@@ -12,10 +12,11 @@ import NewsBlock from "./components/news-block/news-block";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
-    <App />
+
     <Header />
     <Hero />
      <NewsBlock />
+        <App />
         </BrowserRouter>
 );
 
