@@ -15,7 +15,7 @@ root.render(
 
     <Header />
     <Hero />
-     <NewsBlock />
+     {/*<NewsBlock />*/}
         <App />
         </BrowserRouter>
 );

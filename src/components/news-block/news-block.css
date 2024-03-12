@@ -12,3 +12,12 @@
     display: flex;
     justify-content: space-between;
 }
+.right-block-btn{
+    padding: 10px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+    cursor:pointer;
+}

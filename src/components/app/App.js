@@ -1,35 +1,31 @@
-import { Component } from 'react'
+import {Component, Fragment} from 'react'
 import './App.css';
-// import NewsBlock from "../news-block/news-block";
-import LeftImg from "../news-block/images/left-img.jpg";
+import LeftImg from "./images/left-img.jpg";
 import React from "react";
 
+function App() {
+    return (
+        <Fragment>
+            <NewsContent
+             heading="Markaziy Osiyoni Kremniy vodiysi bilan bog‘lamoqchimiz” - AQShda ayti hab ochgan Asror Arabjonov"
+             img = {LeftImg}/>
+        </Fragment>
+    );
+}
 
-function NewsBlock(props) {
+function NewsContent(props) {
   return (
       <div className='container'>
         <div className="news-block">
           <div className='first-block'>
             <div className='left-block'>
-              <img src={LeftImg} alt="hero" className='leftimg'/>
-            </div>
-            <div className='right-block'>
-              <h3 className='right-block-heading'>{props.heading}</h3>
+              <img src={props.img} className='leftimg' alt='post'/>
+                <h3 className='right-block-heading'>{props.heading}</h3>
+                <button className='right-block-btn'>Batafsil</button>
             </div>
           </div>
-
         </div>
       </div>
   );
 }
-
-
-function App() {
-  return (
-      <div>
-        <NewsBlock heading="Markaziy Osiyoni Kremniy vodiysi bilan bog‘lamoqchimiz” - AQShda ayti hab ochgan Asror Arabjonov" />
-      </div>
-  );
-}
-
 export default App;
